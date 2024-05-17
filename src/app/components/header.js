@@ -11,12 +11,10 @@ function Header() {
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <Link className="nav-item" href="/">Home</Link>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
+        <Link className="nav-item nav-link" href="/">Home</Link>
+        <Link className="nav-item nav-link" href="About">About</Link>
           
-          <Link className="nav-item" href="mystore">Store</Link>
+          <Link className="nav-item nav-link" href="mystore">Store</Link>
         </ul>
        
       </div>
